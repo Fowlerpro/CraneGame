@@ -308,6 +308,7 @@ GameObject:
   - component: {fileID: 93986850}
   - component: {fileID: 93986856}
   - component: {fileID: 93986858}
+  - component: {fileID: 93986859}
   m_Layer: 0
   m_Name: Magnet
   m_TagString: Untagged
@@ -414,15 +415,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bce24f59dfb54b34eb4ef00b107ff131, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
-  sprintMultiplier: 2
-  verticalSpeed: 10
-  minHeight: 6.2
-  maxHeight: 13
-  sprintKey: 304
-  pickUpPoint: {fileID: 167558885}
-  pickupRange: 1
-  pickupKey: 32
 --- !u!54 &93986856
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -472,6 +464,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &93986859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93986849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef5201a13b2ab434396b9d473aef0d1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  sprintMultiplier: 2
+  verticalSpeed: 6
+  minHeight: 3
+  maxHeight: 12
+  sprintKey: 304
+  pickUpPoint: {fileID: 0}
+  pickupRange: 1.5
+  pickupKey: 32
 --- !u!1 &167558884
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,10 +1648,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 'Distance:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e9ebd2419e90be8479ad9a83b670d37d, type: 2}
+  m_sharedMaterial: {fileID: 8415742119471119501, guid: e9ebd2419e90be8479ad9a83b670d37d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
