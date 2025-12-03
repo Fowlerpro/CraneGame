@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 54972e40842b43a448a4a14dbfbdb9b4
+  productGUID: 17977ed0b6bf5ce47a3dcc7dbb46b679
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: SimcadeProject
+  productName: cranegame
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -682,14 +682,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: SimcadeProject
+  metroPackageName: cranegame
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: SimcadeProject
+  metroApplicationDescription: cranegame
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -759,11 +759,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 4da6ab6f-3b4d-40c0-bb7d-6f7aa865604a
+  cloudProjectId: 03ef9a90-274e-4de5-b6ce-e4a15ab3b621
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: SimcadeProject
-  organizationId: ethan-gapic-kott
+  projectName: cranegame
+  organizationId: cleric_red
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
