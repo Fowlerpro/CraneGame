@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartScreen : MonoBehaviour
+public class TitleScreen : MonoBehaviour
 {
 
     // Update is called once per frame
